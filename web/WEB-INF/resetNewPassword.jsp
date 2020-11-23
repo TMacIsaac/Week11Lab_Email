@@ -12,6 +12,11 @@
         <title>My Notes</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Enter a new password</h1>
+        <form method="POST" action="reset">
+            <input type="password" name="newPassword" ><br>
+            <input type="submit" value="Change Password">
+            <input type="hidden" name="uuid" value="${uuid}">
+        </form>
     </body>
 </html>
